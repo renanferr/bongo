@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  bot:
+    build:
+      context: .
+    environment:
+      - DISCORD_BOT_TOKEN={discord_bot_token}
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/go/src/github.com/renanferr/gomusic/app
