@@ -8,4 +8,4 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - .:/go/src/github.com/renanferr/gomusic/app
+      - .:/go/src/github.com/renanferr/bongo
